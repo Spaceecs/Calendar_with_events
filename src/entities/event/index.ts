@@ -1,2 +1,6 @@
 export { EventCard } from "./ui/EventCard"
-export type {eventProps} from "./model/event.types"
+export type {FullEvent, SmallEvent, UpdateEventPayload} from "./model/event.types"
+export { convertFullToSmallEvents } from "./utils/convertFullToSmallEvents"
+export { deleteEvent } from "./api/deleteEvent"
+export { getAllEvents } from "./api/getAllEvents"
+export { getEventsByDate } from "./api/getEventsByDate"
